@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping
+PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.wipro.bean.Employee" table="emp">
+		<id name="empNo" column="empno" type="int">
+		<generator class="assigned"></generator></id>
+		
+		<property name="empName" column="ename" type="string"></property>
+		<property name="job" column="job" type="string"></property>
+		<property name="mgrNo" column="mgr" type="int"></property>
+		<property name="hireDate" column="hiredate" type="date"></property>
+		<property name="salary" column="sal" type="int"></property>
+		<property name="commision" column="comm" type="int"></property>
+		<property name="deptNo" column="deptno" type="int"></property>
+	
+	</class>
+</hibernate-mapping>
