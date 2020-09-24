@@ -1,5 +1,5 @@
 package com.wipro.DAO;
-
+// hibernate object dao
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
